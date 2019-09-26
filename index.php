@@ -2,108 +2,21 @@
 
 header('Content-type: text/plain; charset=utf-8');
 
-    $my_variable = 125; // переменные , массивы
-      //echo $my_variable;
-$a = array(1,2,3,4,5);
-      //echo $a[3];
+   $string = 'This is example';
 
-$f = array(
-    'name' => 'Abram',
-    'surname' => 'Tulupov',
-    'age' => 28,
-    'byear' => 1984,
-    'education' => array('school','college')
-);  // ассоциативный массив
-    //echo $f['education'][0];
+       echo strlen($string) . PHP_EOL;
 
-    $name = 'Don';
-    $surname = 'Baton';
-    //echo $name . ' ' . $surname;
-    $g = 15;
-    $h = 20;
-    //echo 'answer: ' . ($g*$h)/2;
+       echo strpos($string, 'T') . PHP_EOL;
+            if (strpos($string, 'T') === false) echo 'T dont found';
+            else echo 'T is found!';
+                 var_dump(strpos($string, 'T'));
 
-    $name_1 = 'Arni';
-    $age = 15;
+        echo strpos($string, 'is', 4) . PHP_EOL; //ищет is в строке начиная с 4го элем.
 
-    if( $name_1 = 'Arni' and $age >= 20){
-        //echo 'hello man';
-    }//else { echo 'goaway'; }
+        echo substr($string, 2, -2) . PHP_EOL; //обрезает строку: 2 сначала, 2 с конца.
 
-    $rating = 15;
+        echo str_replace('is', 'To', $string) . PHP_EOL;
+        echo str_replace(['is' , 'ple'], ['To' , 'zoo'], $string) . PHP_EOL;
 
-    if( $rating >= 25 and $rating <= 75)
-    {
-       // echo 'ты в диапазоне';
-    }
-    else
-    {
-       // echo 'не достиг диапазон';
-    }
-    //циклы
-    for( $i = 1; $i <= 10; $i++)
-    {
-        echo $i;
-        if ( $i%2 == 0){ echo ' - четное число';}
-        else { echo ' - нечетное число'; }
-        echo PHP_EOL;
-    }
-
-    $names = [
-        'Jonny', 'Luk', 'Woker', 'Arni', 'Sly'
-    ];
-    foreach ( $names as $value) {echo $value; echo PHP_EOL;}
-
-    $numbers = [5,10,25,64];
-    foreach ( $numbers as $num)
-    {
-        echo 'куб числа ' . $num . ' = ' . ($num*$num*$num); echo PHP_EOL;
-    }
-
-    function getbigger($a, $b)
-    {
-      if($a > $b)
-      {
-          echo $a;
-      } else
-      {
-          echo $b;
-      }
-        echo PHP_EOL;
-    }
-    getbigger(15, 25);
-    getbigger(22, 33);
-    getbigger(33, 44);
-
-function getbi($ay, $by)
-{
-    if($ay > $by)
-    {
-        return $ay;
-    } else
-    {
-        return $by;
-    }
-}
-$bigger = getbi(10,15);
-echo $bigger;
-echo PHP_EOL;
-
-//функции работы с массивами
-
-    $array1 = [1, 2, 3, 4, 5];
-    $array2 = [6, 7, 8];
-    $result = array_merge($array1, $array2);
-         //var_dump($result);
-
-         if (array_search(5, $result))
-         {
-             var_dump(array_keys($result));
-         } else
-         {
-             echo 'no';
-         }
-
-
-
+        echo trim('              is jora             ') . PHP_EOL;
     ?>
