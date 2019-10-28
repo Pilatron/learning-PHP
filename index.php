@@ -1,22 +1,22 @@
-<?php
+<html>
 
-header('Content-type: text/plain; charset=utf-8');
+<meta charset="utf-8">
+<body>
 
-   $string = 'This is example';
 
-       echo strlen($string) . PHP_EOL;
 
-       echo strpos($string, 'T') . PHP_EOL;
-            if (strpos($string, 'T') === false) echo 'T dont found';
-            else echo 'T is found!';
-                 var_dump(strpos($string, 'T'));
+    <form action="send.php" method="get">
 
-        echo strpos($string, 'is', 4) . PHP_EOL; //ищет is в строке начиная с 4го элем.
+        <p>первый элемент:<br><input type="number" name="num1" required/></p>
 
-        echo substr($string, 2, -2) . PHP_EOL; //обрезает строку: 2 сначала, 2 с конца.
+        <p>знак действия:<br><input type="text" name="operator" required/></p>
 
-        echo str_replace('is', 'To', $string) . PHP_EOL;
-        echo str_replace(['is' , 'ple'], ['To' , 'zoo'], $string) . PHP_EOL;
+        <p>второй элемент:<br><input type="number" name="num2" required/></p>
 
-        echo trim('              is jora             ') . PHP_EOL;
-    ?>
+        <input type="submit" name="send" value="посчитать">
+
+    </form>
+
+</body
+</html>
+
