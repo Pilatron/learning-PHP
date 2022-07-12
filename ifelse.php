@@ -1,5 +1,5 @@
 <?php
-if( $name_1 = 'Arni' and $age >= 20){
+//if( $name_1 = 'Arni' and $age >= 20){
     //echo 'hello man';
 }//else { echo 'goaway'; }
 
@@ -12,7 +12,7 @@ if( $rating >= 25 and $rating <= 75)
 else
 {
     // echo 'не достиг диапазон';
-}
+}//
 //циклы
 for( $i = 1; $i <= 10; $i++)
 {

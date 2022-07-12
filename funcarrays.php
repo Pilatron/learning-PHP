@@ -5,9 +5,7 @@ function getbigger($a, $b)
     {
         echo $a;
     } else
-    {
         echo $b;
-    }
     echo PHP_EOL;
 }
 getbigger(15, 25);

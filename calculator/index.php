@@ -5,7 +5,7 @@
 
 
 
-    <form action="send.php" method="get">
+    <form action="calculator.php" method="get">
 
         <p>первый элемент:<br><input type="number" name="num1" required/></p>
 

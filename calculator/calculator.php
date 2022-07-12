@@ -31,6 +31,7 @@ function calculate($first_operand, $second_operand, $sign):string {
         return 'Sign is not correct';
     }
 
+
     switch ($sign) {
         case '+':
             $result = $first_operand + $second_operand;
