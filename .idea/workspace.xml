@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba5f8e21-d2d6-43db-99e6-592a5a5303a8" name="Changes" comment="b">
-      <change afterPath="$PROJECT_DIR$/loops/do_while.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops/for.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops/foreach.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops/switch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newifelse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.ru.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form4calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/calculator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funcarrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/funcarrays.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ifelse.php" beforeDir="false" afterPath="$PROJECT_DIR$/ifelse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/do_while.php" beforeDir="false" afterPath="$PROJECT_DIR$/loops/do_while.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/for.php" beforeDir="false" afterPath="$PROJECT_DIR$/loops/for.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newifelse.php" beforeDir="false" afterPath="$PROJECT_DIR$/newifelse.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -65,8 +55,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657618683824</updated>
-      <workItem from="1657618685136" duration="1896000" />
+      <workItem from="1657618685136" duration="5232000" />
     </task>
+    <task id="LOCAL-00001" summary="b">
+      <created>1657630191588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657630191588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
