@@ -27,6 +27,13 @@ function calculate($first_operand, $second_operand, $sign):string {
 
     $check_sign = checkSign($sign);
 
+
+    //if ($sign =='/' & $second_operand == 0) {
+    //echo "don't divide by zero";
+// деление на ноль пытался проверить
+
+
+
     if (!$check_sign) {
         return 'Sign is not correct';
     }
